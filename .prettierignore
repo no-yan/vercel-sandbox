@@ -1,0 +1,10 @@
+build/
+public/
+.next/
+**/coverage/
+**/node_modules/
+**/*.min.js
+*.config.js
+.*lintrc.js
+yarn.lock
+package-lock.json
