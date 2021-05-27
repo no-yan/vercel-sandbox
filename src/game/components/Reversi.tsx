@@ -98,7 +98,7 @@ const useGame: UseGame = () => {
   return [board, handleBoard, winner, isPlayerBlack, reset];
 };
 
-const Game = memo((): JSX.Element => {
+const Reversi = memo((): JSX.Element => {
   const [board, handleBoard, winner, isPlayerBlack, reset] = useGame();
 
   return (
@@ -116,4 +116,4 @@ const Game = memo((): JSX.Element => {
   );
 });
 
-export default Game;
+export default Reversi;

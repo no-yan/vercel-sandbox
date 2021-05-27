@@ -7,24 +7,21 @@ const About = (): JSX.Element => (
       <meta charSet="utf-8" />
       <title>HOME</title>
     </Head>
+    {/* 自分がなぜプログラマーを志したのか 興味関心 status */}
+    <main className="mx-auto pt-32 w-10/12">
+      <section className="pt-24">
+        <h2 className="pl-8 pt-12 text-4xl">noyanについて</h2>
+        <p className="pt-2">Im hoge</p>
+      </section>
 
-    <main className="bg- mx-auto pt-32 w-10/12">
       <section>
         <div>
-          <h2 className="font- py-4 text-5xl tracking-wider">
-            WEB技術を、極めたい
-          </h2>
-          <p className="w-1/2">
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-            nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+          <h2 className="py-4 text-5xl tracking-wider">関心</h2>
+          <p className="w-1/2 text-xl">
+            Reactのレンダリング戦略に関心を持っています
           </p>
         </div>
       </section>
-
       <section className="">
         <div>
           <h2 className="text-2xl">
@@ -48,7 +45,6 @@ const About = (): JSX.Element => (
           </p>
         </div>
       </section>
-
       <section className="pt-10">
         <div>
           <h2 className="text-2xl">

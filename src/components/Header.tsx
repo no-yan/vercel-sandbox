@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import Login from './Login';
 
 type Props = { isActive: boolean; toggle: () => void; isLoggedIn: boolean };
 
@@ -28,7 +29,7 @@ const Header: React.VFC<Props> = ({ isActive, toggle, isLoggedIn }) => (
         </a>
       </Link>
     </div>
-
+    <Login />
     <div className="hidden mt-6 px-3 font-light hover:bg-gray-100 rounded-full transform duration-300 md:block md:bg-green-200">
       {isLoggedIn ? <p>SIGN OUT</p> : <p>LOGIN</p>}
     </div>
